@@ -48,13 +48,13 @@ namespace Calculator
                         Result.Text = c1.Add().ToString();
                         break;
                     case "-":
-                        c1.Minus();
+                        Result.Text = c1.Minus().ToString();
                         break;
                     case "*":
-                        Result.Text = c1.Add().ToString();
+                        Result.Text = c1.Multiply().ToString();
                         break;
                     case "/":
-                        Result.Text = c1.Add().ToString();
+                        Result.Text = c1.Divide().ToString();
                         break;
                 }
             }
